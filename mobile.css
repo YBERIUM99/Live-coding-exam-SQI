@@ -41,13 +41,13 @@
         border-right: none;
         height: 2cm;
     }
-    .x{ display: inline;
+    /* .x{ display: inline;
         position: absolute;
         top: -4cm;
         left: 17cm;
         z-index: 3;
         width: 7cm;
-    }
+    } */
     #modalbody{
         width: 6cm;
     }
@@ -89,34 +89,60 @@
       }
       .div1{
         width: 100%;
+        height: auto;
       }
       .div2{
         width: 100%;
+        height: auto;
       }
       .div3{
         width: 100%;
+        height: auto;
       }
       .div4{
         width: 100%;
+        height: auto;
       }
    
 }
 
 @media (max-width:500px) {
     logo{
-        position: relative !important;
-        /* left: -3cm !important; */
+        position: fixed !important;
+        left: 9cm !important;
         
     }
-    .x{ display: inline !important;
+    /* .x{ display: inline !important;
         position: absolute !important;
         top: -4cm !important;
-        left: 7cm !important;
+        left: 3cm !important;
         z-index: 3 !important;
         width: 8cm !important;
-    }
+        height: 7cm;
+    } */
     .close{
         font-size: 50px !important;
+    }
+    .modal-body{
+        height: 12cm;
+        margin-top: 2cm;
+        position: relative;
+        right: 1cm;
+        background-color: white;
+        z-index: 10;
+    }
+    .impbtn{
+        position: relative !important;
+        right: 7cm !important;
+    }
+    .navbar-brand{
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    h2{
+        font-size: xx-large;
+        position: relative;
+        left: -2cm;
     }
 
     
