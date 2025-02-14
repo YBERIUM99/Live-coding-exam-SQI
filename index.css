@@ -223,3 +223,64 @@ h2{
   width: 80%;
   margin: auto;
 } */
+ .oneimg{
+  width: 80%;
+  align-content: center;
+  border-radius: 25px;
+  padding-top: 1cm;
+  padding-left: 1cm;
+
+ }
+ .carta{
+  border: black solid thick;
+ }
+ .pap{
+  display: flex;
+  gap: 1cm;
+  margin-top: 4cm;
+  
+
+ }
+ .secsix{
+  width: 80%;
+  margin: auto;
+  display: flex;
+ }
+ .div1{
+  border: thin black solid;
+  width: 12cm;
+  border-radius: 20px;
+  background-color: rgb(104, 104, 255);
+ }
+
+ .div2{
+  border: thin black solid;
+  width: 12cm;
+  border-radius: 20px;
+  background-color: #f3ff4d;
+ }
+ .div3{
+  border: thin black solid;
+  width: 12cm;
+  border-radius: 20px;
+  background-color: #eeefbd;
+ }
+ .div4{
+  border: thin black solid;
+  width: 12cm;
+  border-radius: 20px;
+  background-color: #dda0dd;
+ }
+
+ .anoflex{
+  display: flex;
+  gap: 2cm;
+  margin-top: 1cm;
+ }
+ .ddg{
+  width: 80%;
+  margin: auto;
+ }
+ 
+ 
+

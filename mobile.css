@@ -6,8 +6,8 @@
        
         height: 1.5cm;
         position: relative;
-        right: -4cm;
-        top: .1cm;
+        /* right: -4cm;
+        top: .1cm; */
     }
     .divsepsec1{
         flex-direction: column;
@@ -28,6 +28,9 @@
     }
     .titletxt{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      br{
+        display: none;
+      }
     }
     .secondsection{
         width: 100%;
@@ -38,13 +41,16 @@
         border-right: none;
         height: 2cm;
     }
-    /* .x{ display: list-item;
-        position: relative;
+    .x{ display: inline;
+        position: absolute;
         top: -4cm;
-        left: 10cm;
+        left: 17cm;
         z-index: 3;
         width: 7cm;
-    } */
+    }
+    #modalbody{
+        width: 6cm;
+    }
     .flexhere{
         flex-direction: column;
     }
@@ -55,14 +61,63 @@
       .fourth{
         flex-direction: column;
       }
-    
+      .modal-backdrop{
+        display: none;
+        
+      }
+      .modal-dialog{
+        width: 400px;
+        height: 300px;
+        z-index: 3;
+        position: relative;
+        left: 4cm;
+        border-radius: 12px;
+        border: thick solid black double;
+      }
+      .anoflex{
+        flex-direction: column;
+       
+       
+      }
+      .pap{
+        flex-direction: column;
+        gap: 3cm;
+        
+       
+        
+        
+      }
+      .div1{
+        width: 100%;
+      }
+      .div2{
+        width: 100%;
+      }
+      .div3{
+        width: 100%;
+      }
+      .div4{
+        width: 100%;
+      }
    
 }
 
 @media (max-width:500px) {
     logo{
-        position: relative;
-        left: 5cm;
+        position: relative !important;
+        /* left: -3cm !important; */
+        
     }
+    .x{ display: inline !important;
+        position: absolute !important;
+        top: -4cm !important;
+        left: 7cm !important;
+        z-index: 3 !important;
+        width: 8cm !important;
+    }
+    .close{
+        font-size: 50px !important;
+    }
+
     
 }
